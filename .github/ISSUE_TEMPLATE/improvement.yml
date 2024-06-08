@@ -1,0 +1,17 @@
+name: Improvement
+description: Suggest an improvement to the guide
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: Page that can be improved.
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      description: How can the page be improved? What was unclear / confusing?
+    validations:
+      required: true

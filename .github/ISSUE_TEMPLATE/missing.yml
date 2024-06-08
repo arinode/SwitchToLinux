@@ -1,0 +1,10 @@
+name: Missing content
+description: Suggest what can be added to the guide
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      description: What is missing?
+    validations:
+      required: true
